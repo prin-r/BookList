@@ -13,7 +13,7 @@ export default props => {
       style={{ minHeight: '100vh' }}
     >
       <Text my="30px" fontSize="24px" color="white">
-        Book List
+        <A to="/wip">Book List</A>
       </Text>
       {books.map(book => (
         <Flex
